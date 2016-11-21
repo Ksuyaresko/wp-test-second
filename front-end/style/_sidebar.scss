@@ -1,0 +1,71 @@
+/*
+ * Theme Name: second
+ *
+ * Layout: Content-Sidebar
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+
+.content-area {
+  float: left;
+  width: 100%;
+  margin-left: -380px;
+  padding-left: 380px;
+}
+.site-main {
+  background: #fff;
+}
+.site-content .widget-area {
+  width: 380px;
+  float: right;
+  padding: 3rem;
+  background: #b2b2b2;
+}
+#secondary ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#secondary ul li {
+  margin: 0 0 5px 0;
+}
+#secondary ul a {
+  color: #424242;
+  text-decoration: none;
+}
+
+#secondary ul a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+@media all and (max-width: 750px){
+  .site-content .widget-area {
+    display: none;
+  }
+  .content-area {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+}
+.site-footer {
+  clear: both;
+  width: 100%;
+}
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation {
+  position: relative;
+  max-width: 780px;
+  max-width: 78rem;
+  padding: 0 4rem;
+  margin: 0 auto;
+}

@@ -1,0 +1,26 @@
+/*----------------------
+Header
+------------------------*/
+
+.site-branding {
+  background: url("images/trolltunga.jpg") no-repeat;
+  background-size: cover;
+  padding: 5em 3em;
+  font-family: 'Shrikhand', 'sans-serif';
+}
+.site-title {
+  margin: 0 0 2em 0;
+}
+.site-title a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+}
+.site-description {
+  text-decoration: none;
+  color: #deedfd;
+  font-size: 1em;
+}
+#map {
+  height: 400px;
+}
